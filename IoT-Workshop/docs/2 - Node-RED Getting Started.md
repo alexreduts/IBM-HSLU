@@ -39,7 +39,7 @@ The main workspace is where flows are developed by dragging nodes from the palet
 - **Adding a flow**: To add a new flow, either click the button in the top bar, or double-click on free space in the tab bar.
 - **Nodes**: 
   - Nodes can be added to the workspace by either:
-    - Dragging them from the palette,
+    - dragging them from the palette,
     - using the quick-add dialog,
     - importing from the library or clipboard
   - Nodes are then joined together by wires via their ports.
@@ -59,9 +59,11 @@ The sidebar contains panels that provide a number of useful tools within the edi
 
 ## Step 2: Running and Debuging a Flow
 
-Deploy Button: Before you can run the flows you created you always need them to deploy. This is rather easy as you just need to click on the "Deploy" Button in the up right corner.
+Deploy Button: Before you can run the flows you have created you always need them to deploy. This is rather easy as you just need to click on the ```Deploy``` Button in the up right corner.
 
-Debug Nodes: Debug View on the Sidebar you see all the messages deliverd to Debug Nodes. So to check if your application is running correctly or looking for bugs, place some debug nodes in your flow, deploy it and then check what message arrive at them when you run your flow.
+Run a Flow: After deploying just click on your input node to trigger your flow to run.
+
+Debug Nodes: In the the debug view on the sidebar you see all the messages deliverd to debug nodes. Hence, to check if your application is running correctly or looking for bugs, place some debug nodes in your flow, deploy it and then check what message arrive at them when you run your flow.
 
 
 ## Step 3: Installing New Nodes
@@ -69,8 +71,8 @@ Debug Nodes: Debug View on the Sidebar you see all the messages deliverd to Debu
 Node-RED comes with a core set of useful nodes, but there are many more available from both the Node-RED project as well as the wider community. You can install nodes directly within the editor.
 
 1. Click on the hamburger symbol (the three white stripes) in the top right corner
-2. Click on **"Manage palette"**
-3. Click on **"Install"** and search for whatever node you need. Example: node-red-dashboard
+2. Click on **Manage palette**
+3. Click on **Install** and search for whatever node you need. Example: node-red-dashboard
 
 <img src={require('@site/static/img/Clipboard_2022-05-02-11-06-07.png').default} />
 

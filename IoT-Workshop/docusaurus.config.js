@@ -8,16 +8,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Cloud and IoT Workshop',
   tagline: "IBM - Let's Create",
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://alexreduts.github.io',
+  baseUrl: '/IoT-Workshop/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/bee.svg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'alexreduts', // Usually your GitHub org/user name.
+  projectName: 'IoT-Workshop', // Usually your repo name.
+  trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -64,7 +65,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/alexreduts/IBM-HSLU',
             label: 'GitHub',
             position: 'right',
           },
